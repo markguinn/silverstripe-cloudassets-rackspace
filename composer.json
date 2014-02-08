@@ -1,0 +1,20 @@
+{
+	"name": "markguinn/silverstripe-cloudassets-rackspace",
+	"description": "Rackspace CloudFiles bucket driver for markguinn/silverstripe-cloudassets",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "assets", "cdn", "cloud storage", "rackspace", "cloudfiles", "cloudassets"],
+	"license": "MIT",
+	"authors": [{
+		"name": "Mark Guinn",
+		"email": "mark@adaircreative.com",
+		"homepage": "http://github.com/markguinn"
+	}],
+	"extra": {
+		"installer-name": "cloudassets-rackspace"
+	},
+	"require": {
+		"silverstripe/framework": ">=3.1",
+		"markguinn/silverstripe-cloudassets": "*",
+		"rackspace/php-opencloud": "dev-master"
+	}
+}
