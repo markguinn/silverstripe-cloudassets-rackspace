@@ -40,7 +40,7 @@ CloudAssets:
       ApiKey: yourkey
       LocalCopy: false
       ServiceNet: false         # use the rackspace servicenet
-      ForceDownlad: false       # add Content-disposition headers to uplaoded files
+      ForceDownload: false       # add Content-disposition headers to uplaoded files
 ```
 
 
